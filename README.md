@@ -14,7 +14,7 @@ We present DECENT (**de**ep **C**NV r**e**co**n**s**t**ruction), a novel deep le
 
 ## Get Started
 
-Clone this repo:
+1. Clone this repo:
 ```bash
 git clone https://github.com/zhenyiizhang/DECENT
 cd DECENT
@@ -32,9 +32,9 @@ conda activate DECENT
 pip install pysam
 ```
 
-Both are also needed to install bedtools related packages, it's recommended to refer to [this source](https://bedtools.readthedocs.io/en/latest/content/installation.html) for more details.
+2. Both are also needed to install bedtools related packages, it's recommended to refer to [this source](https://bedtools.readthedocs.io/en/latest/content/installation.html) for more details.
 
-If you want to conduct CNV analysis further, you should config [Ginkgo](https://github.com/robertaboukhalil/ginkgo) on your own server and then use our reference samples and scripts for analysis.
+3. If you want to conduct CNV analysis further, you should config [Ginkgo](https://github.com/robertaboukhalil/ginkgo) on your own server and then use our reference samples and scripts for analysis.
 
 ## License
 DECENT is licensed under the MIT License. 
