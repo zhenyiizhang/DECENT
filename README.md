@@ -25,7 +25,7 @@ cd DECENT
 conda env create -f environment.yml
 ```
 
-- In MAC OS, there's an issue with installing pysam-related packages. Below is alternative way to install in the conda environment:
+- In MAC OS, there's an issue with installing pysam-related packages. Below is an alternative way to install in the conda environment:
 ```bash
 conda env create -f environment_mac.yml
 conda activate DECENT
