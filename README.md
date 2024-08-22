@@ -1,4 +1,4 @@
-# DECENT: Advancing CNV reconstruction and maternal contamination removal in noninvasive preimplantation genetic testing through deep learning
+# Deep learning-enabled embryonic CNV reconstruction and maternal contamination removal in noninvasive genetic testing of human preimplantation embryos
 
 [![pytorch](https://img.shields.io/badge/PyTorch_2.0+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 [![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://github.com/zhenyiizhang/DECENT/blob/main/LICENSE)
