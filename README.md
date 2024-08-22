@@ -36,7 +36,7 @@ pip install pysam
 
 3. If you want to conduct CNV analysis further, you should config [Ginkgo](https://github.com/robertaboukhalil/ginkgo) on your own server and then use our reference samples and scripts for analysis.
 
-## 🏷️ License
+## 📑 License
 DECENT is licensed under the MIT License. 
 
 ```
