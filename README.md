@@ -41,8 +41,9 @@ pip install pysam
 
 ## Contact information
 
-- Zhenyi Zhang-[zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
-- Peijie Zhou (Corresponding author)-[pjzhou@pku.edu.cn](mailto:pjzhou@pku.edu.cn)
+- Zhenyi Zhang (SMS, PKU)-[zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
+- Peijie Zhou (CMLR, PKU) (Corresponding author)-[pjzhou@pku.edu.cn](mailto:pjzhou@pku.edu.cn)
+- Yidong Chen (Thid Hospitial, PKU) (Corresponding author)-[chenyidongahu@163.com](mailto:chenyidongahu@163.com)
 
 ## License
 DECENT is licensed under the MIT License. 
