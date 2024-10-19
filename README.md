@@ -35,9 +35,11 @@ pip install pysam
 
 2. Both are also needed to install bedtools related packages, it's recommended to refer to [this source](https://bedtools.readthedocs.io/en/latest/content/installation.html) for more details.
 
-3. If you want to conduct CNV analysis further, you should config [Ginkgo](https://github.com/robertaboukhalil/ginkgo) on your own server and then use our reference samples and scripts for analysis.
-
-
+3. If you want to conduct CNV analysis further, you should config [Ginkgo](https://github.com/robertaboukhalil/ginkgo) on your own server and then use our reference samples and scripts replacing the original for analysis. The new scripts can be found under the directory ```Ginkgo-scripts```, please use it to relpace ```scripts``` in original [Ginkgo](https://github.com/robertaboukhalil/ginkgo) directory. Note that the root need to be accordingly changed to your own directory. Furtherwore, we provide on some intructions on the cofigurations of Ginkgo:
+- /etc/php.ini: not need to do anything.
+- ginkgo/includes/fileupload/server/php/UploadHandler.php:  ```upload_dir='/lustre/home/2301110060/ginkgo-master/uploads/'```, ```upload_url='http://gb.cshl.edu/ginkgo/uploads/'```
+- ginkgo/bootstrap.php: ```DIR_R00T='/lustre/home/2301110060/ginkgo-master'```, ```URL RooT='http://gb.cshl.edu/ginkgo'```
+- The rest of root directory cofigurations can refer to the code in ```Ginkgo-scripts```.
 
 ## Contact information
 
