@@ -38,8 +38,26 @@ pip install pysam
 3. If you want to conduct CNV analysis further, you should config [Ginkgo](https://github.com/robertaboukhalil/ginkgo) on your own server and then use our reference samples and scripts replacing the original for analysis. The new scripts can be found under the directory ```Ginkgo-scripts```, please use it to relpace ```scripts``` in original [Ginkgo](https://github.com/robertaboukhalil/ginkgo) directory. Note that the root need to be accordingly changed to your own directory. Furtherwore, we provide on some intructions on the cofigurations of Ginkgo:
 - /etc/php.ini: not need to do anything.
 - ginkgo/includes/fileupload/server/php/UploadHandler.php:  ```upload_dir='/lustre/home/2301110060/ginkgo-master/uploads/'```, ```upload_url='http://gb.cshl.edu/ginkgo/uploads/'```
-- ginkgo/bootstrap.php: ```DIR_R00T='/lustre/home/2301110060/ginkgo-master'```, ```URL RooT='http://gb.cshl.edu/ginkgo'```
+- ginkgo/bootstrap.php: ```DIR_ROOT='/lustre/home/2301110060/ginkgo-master'```, ```URL_ROOT='http://gb.cshl.edu/ginkgo'```
 - The rest of root directory cofigurations can refer to the code in ```Ginkgo-scripts```.
+
+## How to use
+
+If the model has been trained, we then demonstrate how to utilize the model to eliminate contamination and perform copy number variations analysis. (Code in ```infer``` directory)
+
+1. In ```config.py```, please change ```data_dir``` to your own data directory. The ```reads_dir```, ```result_dir```, ```processed_bam_dir``` are the path to store the results. The data directory structure looks like this:
+```
+│
+├── data              <- data dir
+|   ├── PBAT_Sxxx_Bxx
+        ├── PBAT_Sxxx_Bxx.rmdup.bam                   
+│   ├── PBAT_Sxxx_Bxx     
+        ├── PBAT_Sxxx_Bxx.rmdup.bam    
+```
+2. 
+
+## How to train
+
 
 ## Contact information
 

@@ -4,8 +4,8 @@ import os
 data_dir = '/Users/zhenyizhang/Desktop/Deep_niPGT/DECENT/test/data/'
 
 
-for folder_name in os.listdir(jci_dir):
-    folder_path = os.path.join(jci_dir, folder_name)
+for folder_name in os.listdir(data_dir):
+    folder_path = os.path.join(data_dir, folder_name)
     if os.path.isdir(folder_path):
 
         for file_name in os.listdir(folder_path):
