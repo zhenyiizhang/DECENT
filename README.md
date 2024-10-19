@@ -7,7 +7,9 @@
 
 
 ## Introduction
-We present DECENT (**de**ep **C**NV r**e**co**n**s**t**ruction), a new deep learning framework aimed at mitigating maternal contamination in spent culture embryo media (SECM) and reconstructing embryonic copy number variations (CNVs). DECENT leverages sequence and methylation information from both embryonic and maternal sources, utilizing convolutional neural networks and attention mechanisms to infer the origin of sequence reads. Overall, DECENT contributes to substantially enhancing the diagnostic accuracy and effectiveness of SECM-based niPGT, establishing a robust groundwork for the extensive clinical utilization of niPGT in the field of reproductive medicine.
+
+We present
+DECENT (**de**ep **C**NV r**e**co**n**s**t**ruction), a deep learning method to reconstruct embryonic copy number variations (CNVs) and mitigate maternal contamination in spent embryo culture media (SECM) from single-cell methylation sequencing of cell-free DNA (cfDNA). DECENT integrates sequence features and methylation patterns to infer the origin of cfDNA reads. The benchmarking study demonstrated DECENT's robust ability to estimate contamination proportions and restore CNVs in samples with varying contamination levels. In highly contaminated SECM clinical samples with more than 80%maternal reads, DECENT achieved consistent CNV recovery with invasive tests. Overall, DECENT contributes to substantially enhancing the diagnostic accuracy and effectiveness of noninvasive cfDNA-based preimplantation genetic testing, establishing a robust groundwork for its extensive clinical utilization in the field of reproductive medicine.
 
 <p align="center">
   <img src=https://github.com/zhenyiizhang/DECENT/blob/main/figures/main.svg alt="[main]">
