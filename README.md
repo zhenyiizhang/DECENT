@@ -65,8 +65,10 @@ Then ```result/processed_bam``` will store the processed bam and bed files after
 bash analyze.sh DIR/uploads/test
 ```
 ## How to train
-
-
+To use your own data to train the model, please find the code in ```train```. You only need to create your own training reads, you can use the code in ```infer```, e.g., ```1_id_bam.py``` and ```2_extract_header.py``` to help you prepare the needed data form. Then you can train your model via
+```
+python training.py
+```
 ## Contact information
 
 - Zhenyi Zhang (SMS, PKU)-[zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
