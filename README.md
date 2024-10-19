@@ -54,8 +54,16 @@ If the model has been trained, we then demonstrate how to utilize the model to e
 │   ├── PBAT_Sxxx_Bxx     
         ├── PBAT_Sxxx_Bxx.rmdup.bam    
 ```
-2. 
+2. Then you can run the code to process one sample by 
+```
+bash job_cnv.sh PBAT_Sxxx_Bxx
+```
+Then ```result/processed_bam``` will store the processed bam and bed files after contamination removal.
 
+3. We then can use the processed bed files to conduct the CNV analysis. You should create a uploads directory for example ```upload_dir='/lustre/home/2301110060/ginkgo-master/uploads/'```. Then you can create a directory under it like ```test```, then you should move the bed files you want to do on this directory. Then you should create a ```list``` file, a ```config``` file and a reference bam file therein. We provide  examples on ```Ginkgo-uploads``` directory. The reference bam file can be found in . Then you can proceed CNV analysis by
+```
+bash analyze.sh DIR/uploads/test
+```
 ## How to train
 
 
