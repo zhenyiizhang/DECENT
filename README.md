@@ -71,6 +71,7 @@ To use your own data to train the model, please find the code in ```train```. Yo
 ```
 python training.py
 ```
+We recommend an Nvidia GPU with CUDA support for training.
 ## Contact information
 
 - Zhenyi Zhang (SMS, PKU)-[zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
