@@ -78,6 +78,10 @@ We recommend an Nvidia GPU with CUDA support for training.
 - Peijie Zhou (CMLR, PKU) (Corresponding author)-[pjzhou@pku.edu.cn](mailto:pjzhou@pku.edu.cn)
 - Yidong Chen (Thid Hospitial, PKU) (Corresponding author)-[chenyidongahu@163.com](mailto:chenyidongahu@163.com)
 
+## How to cite
+
+If you find DECENT useful, please consider citing our work.
+
 ## License
 DECENT is licensed under the MIT License. 
 
