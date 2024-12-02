@@ -52,14 +52,14 @@ If the model has been trained, we then demonstrate how to utilize the model to e
 |
 |- test
 |  |- data  <- data dir
-|    |- PBAT_Sxxx_Bxx 
-|      |- PBAT_Sxxx_Bxx.rmdup.bam
-|    |- PBAT_Sxxx_Bxx 
-|      |- PBAT_Sxxx_Bxx.rmdup.bam
+|  |  |- PBAT_Sxxx_Bxx 
+|  |  |  |- PBAT_Sxxx_Bxx.rmdup.bam
+|  |  |- PBAT_Sxxx_Bxx 
+|  |     |- PBAT_Sxxx_Bxx.rmdup.bam
 |  |- result
-|    |- processed_bam  <- processed_bam_dir
-|    |- reads   <- reads_dir
-|    |- score  <- score_dir
+|     |- processed_bam  <- processed_bam_dir
+|     |- reads          <- reads_dir
+|     |- score          <- score_dir
 |  
 ```
 2. Then you can run the code to process one sample by 
