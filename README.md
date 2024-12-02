@@ -25,19 +25,19 @@ cd DECENT
 
 - You can create a new conda  environment (DECENT) using 
 ```bash
-conda env create -f environment.yaml
+conda create -n DECENT python=3.10
+pip install -r requirements.txt
 ```
-
-- In MAC OS, there's an issue with installing pysam-related packages. Below is an alternative way to install in the conda environment:
+- For MAC OS, below is an alternative way to install in the conda environment:
 ```bash
-conda env create -f environment_mac.yaml
+conda env create -f environment.yaml
 conda activate DECENT
 pip install pysam
 ```
 
-2. Both are also needed to install bedtools related packages, it's recommended to refer to [this source](https://bedtools.readthedocs.io/en/latest/content/installation.html) for more details.
+1. Both are also needed to install bedtools related packages, it's recommended to refer to [this source](https://bedtools.readthedocs.io/en/latest/content/installation.html) for more details.
 
-3. If you want to conduct CNV analysis further, you should config [Ginkgo](https://github.com/robertaboukhalil/ginkgo) on your own server and then use our reference samples and scripts replacing the original for analysis. The new scripts can be found under the directory ```Ginkgo-scripts```, please use them to relpace files in ```scripts``` directory of original [Ginkgo](https://github.com/robertaboukhalil/ginkgo) software. Note that the root need to be accordingly changed to your own directory. We next provide some intructions on the cofigurations of Ginkgo:
+2. If you want to conduct CNV analysis further, you should config [Ginkgo](https://github.com/robertaboukhalil/ginkgo) on your own server and then use our reference samples and scripts replacing the original for analysis. The new scripts can be found under the directory ```Ginkgo-scripts```, please use them to relpace files in ```scripts``` directory of original [Ginkgo](https://github.com/robertaboukhalil/ginkgo) software. Note that the root need to be accordingly changed to your own directory. We next provide some intructions on the cofigurations of Ginkgo:
 - /etc/php.ini: not need to do anything.
 - ginkgo/includes/fileupload/server/php/UploadHandler.php:  ```upload_dir='/lustre/home/2301110060/ginkgo-master/uploads/'```, ```upload_url='http://gb.cshl.edu/ginkgo/uploads/'```
 - ginkgo/bootstrap.php: ```DIR_ROOT='/lustre/home/2301110060/ginkgo-master'```, ```URL_ROOT='http://gb.cshl.edu/ginkgo'```

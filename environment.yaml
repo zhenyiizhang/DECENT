@@ -1,22 +1,15 @@
 name: DECENT
 channels:
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - pytorch
   - conda-forge
   - bioconda
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
   - defaults
 dependencies:
-  - cudatoolkit=10.1
-  - pytorch==2.1.1
-  - torchvision==0.16.1
+  - pytorch
+  - torchvision
   - scikit-learn
-  - pytorch-cuda=11.8
-  - torchaudio==2.1.1
+  - torchaudio
   - matplotlib
   - captum
-  - pysam
   - ipykernel
   - seaborn
