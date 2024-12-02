@@ -62,6 +62,8 @@ If the model has been trained, we then demonstrate how to utilize the model to e
 |     |- score          <- score_dir
 |  
 ```
+We have provided an example in ```test``` directory.
+
 2. Then you can run the code to process one sample by 
 ```
 bash job_cnv.sh PBAT_Sxxx_Bxx
