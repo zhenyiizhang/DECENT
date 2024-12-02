@@ -47,14 +47,20 @@ pip install pysam
 
 If the model has been trained, we then demonstrate how to utilize the model to eliminate contamination and perform copy number variations analysis. (Code in ```infer``` directory)
 
-1. In ```config.py```, please change ```data_dir``` to your own data directory. The ```reads_dir```, ```result_dir```, ```processed_bam_dir``` are the path to store the results. The data directory structure looks like this:
+1. In ```config.py```, please change ```data_dir``` to your own data directory. The ```reads_dir```, ```score_dir```, ```processed_bam_dir``` are the path to store the results. The data directory structure looks like this:
 ```
-│
-├── data              <- data dir
-|   ├── PBAT_Sxxx_Bxx
-        ├── PBAT_Sxxx_Bxx.rmdup.bam                   
-│   ├── PBAT_Sxxx_Bxx     
-        ├── PBAT_Sxxx_Bxx.rmdup.bam    
+|
+|- test
+|  |- data  <- data dir
+|    |- PBAT_Sxxx_Bxx 
+|      |- PBAT_Sxxx_Bxx.rmdup.bam
+|    |- PBAT_Sxxx_Bxx 
+|      |- PBAT_Sxxx_Bxx.rmdup.bam
+|  |- result
+|    |- processed_bam  <- processed_bam_dir
+|    |- reads   <- reads_dir
+|    |- score  <- score_dir
+|  
 ```
 2. Then you can run the code to process one sample by 
 ```
