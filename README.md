@@ -25,12 +25,12 @@ cd DECENT
 
 - You can create a new conda  environment (DECENT) using 
 ```bash
-conda env create -f environment.yml
+conda env create -f environment.yaml
 ```
 
 - In MAC OS, there's an issue with installing pysam-related packages. Below is an alternative way to install in the conda environment:
 ```bash
-conda env create -f environment_mac.yml
+conda env create -f environment_mac.yaml
 conda activate DECENT
 pip install pysam
 ```
