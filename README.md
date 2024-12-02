@@ -28,7 +28,7 @@ cd DECENT
 conda create -n DECENT python=3.10
 pip install -r requirements.txt
 ```
-- For MAC OS, below is an alternative way to install in the conda environment:
+- For MAC OS, below is one way to install in the conda environment:
 ```bash
 conda env create -f environment.yaml
 conda activate DECENT
