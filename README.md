@@ -28,7 +28,7 @@ cd DECENT
 conda create -n DECENT python=3.10
 pip install -r requirements.txt
 ```
-- For MAC OS, below is one way to install in the conda environment:
+- For MAC OS, below is the way to install in the conda environment:
 ```bash
 conda env create -f environment.yaml
 conda activate DECENT
@@ -70,9 +70,9 @@ bash job_cnv.sh PBAT_Sxxx_Bxx
 ```
 Then ```result/processed_bam``` will store the processed bam and bed files after contamination removal.
 
-3. We then can use the processed bed files to conduct the CNV analysis. You should create a uploads directory for example ```upload_dir='/lustre/home/2301110060/ginkgo-master/uploads/'```. Then you can create a directory under it like ```test```, then you should move the bed files you want to do to this directory. Then you should create a ```list``` file, a ```config``` file and a reference bed file therein. We provide  examples on ```Ginkgo-uploads``` directory. The reference bed file can be found in https://drive.google.com/drive/folders/1Rdbluc3mqtJHHqMNmKgKu9iPUwzWddFS?usp=sharing (```merge_ref_015_process1.bed``` used for the processed SECM samples, ```merge_20ICM_4M.bed``` used for the orginal SECM samples). Then you can proceed CNV analysis by
+3. We then can use the processed bed files to conduct the CNV analysis. You should create a uploads directory for example ```upload_dir='/lustre/home/2301110060/ginkgo-master/uploads/'```. Then you can create a directory under it like ```CNV```, then you should move the bed files you want to do to this directory. Then you should create a ```list``` file, a ```config``` file and a reference bed file therein. We provide  examples on ```Ginkgo-uploads``` directory. The reference bed file can be found in https://drive.google.com/drive/folders/1Rdbluc3mqtJHHqMNmKgKu9iPUwzWddFS?usp=sharing (```merge_ref_015_process1.bed``` used for the processed SECM samples, ```merge_20ICM_4M.bed``` used for the orginal SECM samples). Then you can proceed CNV analysis by
 ```
-bash analyze.sh DIR/uploads/test
+bash analyze.sh CNV
 ```
 ## How to train
 To use your own data to train the model, please find the code in ```train```. You only need to create your own training reads, you can use the code in ```infer```, e.g., ```1_id_bam.py``` and ```2_extract_header.py``` to help you prepare the needed data form. Then you can train your model via
