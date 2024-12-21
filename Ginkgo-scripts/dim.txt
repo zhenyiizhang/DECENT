@@ -1,0 +1,4 @@
+Dimensions of 'normal' matrix:
+Number of rows:  5452 
+Number of columns:  3 
+

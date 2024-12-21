@@ -1,0 +1,15 @@
+name: DECENT
+channels:
+  - pytorch
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pytorch
+  - torchvision
+  - scikit-learn
+  - torchaudio
+  - matplotlib
+  - captum
+  - ipykernel
+  - seaborn
