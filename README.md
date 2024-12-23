@@ -68,7 +68,7 @@ bash job_cnv.sh PBAT_Sxxx_Bxx
 ```
 Then ```result/processed_bam``` will store the processed bam and bed files after contamination removal.
 
-1. We then can use the processed bed files to conduct the CNV analysis. You should create a uploads directory for example ```upload_dir='/lustre/home/2301110060/ginkgo-master/uploads/'```. Then you can create a directory under it like ```CNV```, then you should move the bed files you want to do to this directory. Then you should create a ```list``` file, a ```config``` file and a reference bed file therein. We provide  examples on ```Ginkgo-uploads``` directory. The reference bed file can be found in https://drive.google.com/drive/folders/1Rdbluc3mqtJHHqMNmKgKu9iPUwzWddFS?usp=sharing (```merge_ref_015_process1.bed``` used for the processed SECM samples, ```merge_20ICM_4M.bed``` used for the orginal SECM samples). Then you can proceed CNV analysis by
+1. We then can use the processed bed files to conduct the CNV analysis. You should create a uploads directory for example ```upload_dir='/lustre/home/2301110060/ginkgo-master/uploads/'```. Then you can create a directory under it like ```CNV```, then you should move the bed files you want to do to this directory. Then you should create a ```list``` file, a ```config``` file and a reference bed file therein. We provide  examples on ```Ginkgo-uploads``` directory. The reference bed file can be found in https://drive.google.com/drive/folders/1Rdbluc3mqtJHHqMNmKgKu9iPUwzWddFS?usp=sharing (```merge_ref_015_process1.bed``` used for the processed SECM samples, ```merge_20ICM_4M.bed``` used for the original SECM samples). Then you can proceed CNV analysis by
 ```
 bash analyze.sh CNV
 ```
@@ -82,7 +82,7 @@ We recommend an Nvidia GPU with CUDA support for training.
 
 - Zhenyi Zhang (SMS, PKU)-[zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
 - Peijie Zhou (CMLR, PKU) (Corresponding author)-[pjzhou@pku.edu.cn](mailto:pjzhou@pku.edu.cn)
-- Yidong Chen (Thid Hospitial, PKU) (Corresponding author)-[chenyidongahu@163.com](mailto:chenyidongahu@163.com)
+- Yidong Chen (Thid Hospital, PKU) (Corresponding author)-[chenyidongahu@163.com](mailto:chenyidongahu@163.com)
 
 ## How to cite
 
