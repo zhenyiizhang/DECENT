@@ -92,7 +92,7 @@ If you find DECENT useful in your research, please consider citing our work.
 DECENT is licensed under the following License. 
 
 ```
-MIT License
+License
 
 Copyright (c) 2025 Zhenyi Zhang
 
