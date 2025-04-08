@@ -2,7 +2,7 @@
 
 
 [![pytorch](https://img.shields.io/badge/PyTorch_2.0+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
-[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://github.com/zhenyiizhang/DECENT/blob/main/LICENSE)
+[![license](https://img.shields.io/badge/License-License-green.svg?labelColor=gray)](https://github.com/zhenyiizhang/DECENT/blob/main/LICENSE)
 [![commit](https://img.shields.io/github/last-commit/zhenyiizhang/DECENT?color=blue)](https://github.com/zhenyiizhang/DECENT/)
 
 
