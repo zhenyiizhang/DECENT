@@ -89,7 +89,7 @@ We recommend an Nvidia GPU with CUDA support for training.
 If you find DECENT useful in your research, please consider citing our work.
 
 ## License
-DECENT is licensed under the MIT License. 
+DECENT is licensed under the following License. 
 
 ```
 MIT License
