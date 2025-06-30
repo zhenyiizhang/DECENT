@@ -93,7 +93,7 @@ to faciliate access, we also provide a link to download the processed bam files 
 
 ## How to cite
 
-If you find DECENT useful in your research, please consider citing our work.
+If you find DECENT useful in your research, please consider citing our work at this [link](https://advanced.onlinelibrary.wiley.com/action/showCitFormats?doi=10.1002%2Fadvs.202412660).
 
 ## License
 DECENT is licensed under the following License. 
