@@ -82,7 +82,7 @@ python training.py
 We recommend an Nvidia GPU with CUDA support for training.
 
 ## Data availability 
-The data that support the findings of this study are openly available in Na- tional Genomics Data Center of the China National Center for Bioinfor- mation at https://ngdc.cncb.ac.cn/gsa-human/browse/HRA000332. Addtionally,
+The data that support the findings of this study are openly available in National Genomics Data Center of the China National Center for Bioinfor- mation at https://ngdc.cncb.ac.cn/gsa-human/browse/HRA000332. Addtionally,
 to faciliate access, we also provide a link to download the processed bam files directly at https://drive.google.com/drive/folders/1xmlCocSfwzhH7rZjsXqND3M4on0P0UTe?usp=share_link.
 
 ## Contact information
