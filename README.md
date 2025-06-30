@@ -1,10 +1,11 @@
-# Genetic deconvolution of embryonic and maternal cell-free DNA in spent medium of human preimplantation embryos through deep learning
+# Genetic deconvolution of embryonic and maternal cell-free DNA in spent medium of human preimplantation embryos through deep learning (Advanced Science)
 
+<h3 align="center">
 
 [![pytorch](https://img.shields.io/badge/PyTorch_2.0+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 [![license](https://img.shields.io/badge/License-License-green.svg?labelColor=gray)](https://github.com/zhenyiizhang/DECENT/blob/main/LICENSE)
 [![commit](https://img.shields.io/github/last-commit/zhenyiizhang/DECENT?color=blue)](https://github.com/zhenyiizhang/DECENT/)
-
+</div>
 
 ## Introduction
 
@@ -78,6 +79,11 @@ To use your own data to train the model, please find the code in ```train```. Yo
 python training.py
 ```
 We recommend an Nvidia GPU with CUDA support for training.
+
+## Data availability 
+The data that support the findings of this study are openly available in Na- tional Genomics Data Center of the China National Center for Bioinfor- mation at https://ngdc.cncb.ac.cn/gsa-human/browse/HRA000332. Addtionally,
+to faciliate access, we also provide a link to download the processed bam files directly at https://drive.google.com/drive/folders/1xmlCocSfwzhH7rZjsXqND3M4on0P0UTe?usp=share_link
+
 ## Contact information
 
 - Zhenyi Zhang (SMS, PKU)-[zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
